@@ -2,11 +2,20 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:regular,700,italic&display=swap);
 
 body {
-  padding: 0 30px;
   background-color: #222;
   color: #fff;
   font-family: "Montserrat";
 }
+
+main {
+  padding: 0 30px;
+}
+@media (max-width: 767px) {
+  main {
+    padding: 0 15px;
+  }
+}
+
 
 a {
   color: yellow;
